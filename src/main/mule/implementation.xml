@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-	<http:listener-config name="myses-docuware-system-api_HttpsListeenerConfig" doc:name="HTTP Listener config" doc:id="d788b356-696a-490a-b4b6-7bb0d6f7f3b0" >
+	<http:listener-config name="mysess-docuware-system-api_HttpsListeenerConfig" doc:name="HTTP Listener config" doc:id="d788b356-696a-490a-b4b6-7bb0d6f7f3b0" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<http:listener-config name="docuware-system-api_HttpsListenerConfig" doc:name="HTTP Listener config" doc:id="d788b356-696a-490a-b4b6-7bb0d6f7f3b0" >
